@@ -1,0 +1,104 @@
+* {
+    color: white;
+    font-family: sketch-r;
+}
+
+body {
+    background-image: url("../img/background.png");
+}
+
+@font-face {
+    font-family: sketch-b;
+    src: url("../font/cabin-sketch-b.ttf");
+}
+@font-face {
+    font-family: sketch-r;
+    src: url("../font/cabin-sketch-r.ttf");
+}
+
+
+/* Begin HEADER */
+
+.logo {
+    font-family: sketch-b;
+    text-align: center;
+}
+
+.logo > h1 {
+    margin-top: 0px;
+    font-weight: normal;
+    margin-bottom: 0px;
+    font-size: 2.9em;
+    color: white;
+}
+
+.logo > p {
+    margin-top: 0px;
+    color: white;
+    font-size: 1.2em;
+    font-family: sketch-r;
+}
+
+
+.menu > h3 {
+    font-family: sketch-b;
+    font-weight: normal;
+    text-align: center;
+    font-size:1.6em;
+    color: white;
+}
+
+.menu > h3 > a {
+    text-decoration: none;
+}
+
+/* End HEADER */
+
+/* Begin AVISOS */
+
+#Avisos  {
+    font-family: sketch-r;
+    text-align: justify;
+    font-size: 1.3em;
+}
+
+/* End Avisos */
+
+/* Begin Planp */
+#Plano  {
+    font-size: 1.3em;
+}
+
+/* End Plano */
+
+
+/* Begin EQUIPE */
+#Equipe {
+    font-size: 1.3em;
+}
+
+
+.equipe-office {
+   text-align:center; 
+}
+
+
+.equipe-office > ul > li {
+    list-style: none;
+    float: left;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+/* End EQUIPE */
+
+
+/* Begin Contato */
+
+#Contato {
+    font-size: 1.2em;
+}
+
+/* End Contato */
+
+
