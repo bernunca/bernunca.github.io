@@ -1,104 +1,273 @@
-* {
-    color: white;
-    font-family: sketch-r;
-}
 
 body {
-    background-image: url("../img/background.png");
+
+    /* Mozilla Sugestions */
+
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #4D4E53;
+
+    font-family: OpenSans;
+
+    background: #D7D3C8; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(top, #D7D3C8 0%, #F6F4EC 100%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(top, #D7D3C8, #F6F4EC); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(top, #D7D3C8, #F6F4EC); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, #D7D3C8 0%, #F6F4EC 100%); /* Standard syntax */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7d3c8', endColorstr='#f6f4ec',GradientType=0 ); /* IE6-9 */
 }
 
-@font-face {
-    font-family: sketch-b;
-    src: url("../font/cabin-sketch-b.ttf");
-}
-@font-face {
-    font-family: sketch-r;
-    src: url("../font/cabin-sketch-r.ttf");
+hr {
+    margin-top: 1%;
+    margin-bottom: 2%;
+
+    border: 1px solid #C13832;
 }
 
-
-/* Begin HEADER */
-
-.logo {
-    font-family: sketch-b;
-    text-align: center;
-}
-
-.logo > h1 {
-    margin-top: 0px;
-    font-weight: normal;
-    margin-bottom: 0px;
-    font-size: 2.9em;
-    color: white;
-}
-
-.logo > p {
-    margin-top: 0px;
-    color: white;
-    font-size: 1.2em;
-    font-family: sketch-r;
-}
-
-
-.menu > h3 {
-    font-family: sketch-b;
-    font-weight: normal;
-    text-align: center;
-    font-size:1.6em;
-    color: white;
-}
-
-.menu > h3 > a {
+a {
+    color: #0095DD;
     text-decoration: none;
 }
 
-/* End HEADER */
-
-/* Begin AVISOS */
-
-#Avisos  {
-    font-family: sketch-r;
-    text-align: justify;
-    font-size: 1.3em;
-}
-
-/* End Avisos */
-
-/* Begin Planp */
-#Plano  {
-    font-size: 1.3em;
-}
-
-/* End Plano */
-
-
-/* Begin EQUIPE */
-#Equipe {
-    font-size: 1.3em;
+a:hover {
+    color: #00539F;
 }
 
 
-.equipe-office {
-   text-align:center; 
+/* Mozilla Sugestions */
+.large {
+    font-size: 72px;
+    letter-spacing: -3px;
+    line-height: 100%;
+}
+
+h1 {
+    font-size: 48px;
+    letter-spacing: -2px;
+    line-height: 100%;
+}
+
+h2 {
+    font-size: 32px;
+    letter-spacing: -1px;
+    line-height: 100%;
+}
+
+h3 {
+    font-size: 28px;
+    letter-spacing: -0.5px;
+    line-height: 100%;
+}
+
+h4 {
+    font-size: 24px;
+    letter-spacing: -0.25px;
+    line-height: 100%;
+}
+
+.small, small {
+    font-size: 12px;
+    line-height: 100%;
 }
 
 
-.equipe-office > ul > li {
+
+#header {
+    padding-top: 3%;
+    text-align: center; 
+}
+
+#logo-title {
+    font-size: 2.6em;
+    font-weight: bold;
+    color: #C13832;
+
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+}
+
+#logo-subtitle {
+    margin-top: 0px;
+    padding-top: 0px;
+    font-weight: bold;
+}
+
+.menu {
+    padding-top: 3%;
     list-style: none;
-    float: left;
-    padding-left:5px;
-    padding-right:5px;
 }
 
-/* End EQUIPE */
-
-
-/* Begin Contato */
-
-#Contato {
-    font-size: 1.2em;
+.menu-item {
+    display: inline;
+    font-weight: bold;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
-/* End Contato */
+#foto-grupo {
+    margin-top: 5%;
+}
+
+#foto-grupo img {
+    width: 100%;
+}
+
+#avisos {
+    margin-top: 5%;
+}
+
+.aviso {
+    padding-top: 3%;
+}
+
+.aviso-data {
+    margin-bottom: 0px;
+    font-weight: normal;
+    float: right;
+    font-size: 0.8em;
+}
+
+.aviso-nome {
+    font-weight: bold;
+}
+
+.aviso-texto {
+   text-align: justify; 
+}
+
+.aviso-todos {
+    text-align: center;
+}
+
+#clube {
+   margin-top: 5%; 
+}
+
+.clube-titulo {
+    text-align:center;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.clube-subtitulo {
+    text-align: center;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+.clube-texto {
+   text-align: justify; 
+}
 
 
+#atividades {
+   margin-top: 5%; 
+   background-color: #4D4E53;
+   color: #F6F4EC;
+   text-align: center;
+}
+
+.atividade {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.atividade-titulo {
+    font-weight: bold;
+    text-align: center;
+}
+
+.atividade-descricao {
+    text-align: justify;
+}
+
+.atividade-data {
+    margin-top: 0%;
+    margin-bottom: 1%;
+    text-align: left;
+    font-weight: bold;
+}
+
+.atividade-local {
+    margin-top: 0%;
+    margin-bottom: 1%;
+    text-align: left;
+    font-weight: bold;
+}
+
+.atividade-inscricao {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #689d6a;
+    float: right;
+
+}
+
+.atividade-inscricao:hover {
+    color: #8ec07c;
+}
+
+#planejamento {
+    margin-top: 5%;
+}
+
+.planejamento-mes {
+    padding-top: 3%;
+    font-weight: bold;
+}
+
+.planejamento-metas {
+    list-style-type: none;
+    color: #4D4E53;
+}
+
+.planejamento-meta:before {
+    content: "";
+    margin-right: 7px;
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: #4D4E53;
+    margin-bottom: 2px;
+}
+
+.meta-sucesso:before {
+    background-color: #b8bb28;
+}
+
+.meta-fracasso:before {
+    background-color: #cc241d; 
+}
+
+
+
+#membros {
+    margin-top: 5%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    background-color: #D7D3C8;
+}
+.membros-titulo {
+    font-weight: bold;
+}
+
+#assinatura {
+    padding-top: 1%;
+    background-color: #282828;
+
+    text-align: center;
+    color: #F6F4EC;
+}
+
+#assinatura p {
+    margin-bottom: 1%;
+}
+
+.assinatura-amor {
+    font-weight: bold;
+    color: #fb4934;
+}
