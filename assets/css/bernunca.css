@@ -8,15 +8,15 @@ body {
 
     font-weight: bold;
 
-    color: #4D4E53;
+    color: #282828;
 
     font-family: OpenSans;
 
-    background: #D7D3C8; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(top, #D7D3C8 0%, #F6F4EC 100%); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(top, #D7D3C8, #F6F4EC); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(top, #D7D3C8, #F6F4EC); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom, #f7f6f4 0%, #e7e4de 100%); /* Standard syntax */
+    background: #fcfcfb; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(top, #fcfcfb 0%, #f7f7f5 100%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(top, #fcfcfb, #f7f7f5 ); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(top, #fcfcfb, #f7f7f5 ); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, #fcfcfb 0%, #f7f7f5 100%); /* Standard syntax */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7d3c8', endColorstr='#f6f4ec',GradientType=0 ); /* IE6-9 */
 }
 
