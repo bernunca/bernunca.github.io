@@ -14,7 +14,7 @@ body {
     background: -webkit-linear-gradient(top, #D7D3C8 0%, #F6F4EC 100%); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(top, #D7D3C8, #F6F4EC); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(top, #D7D3C8, #F6F4EC); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom, #D7D3C8 0%, #F6F4EC 100%); /* Standard syntax */
+    background: linear-gradient(to bottom, #f7f6f4 0%, #e7e4de 100%); /* Standard syntax */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7d3c8', endColorstr='#f6f4ec',GradientType=0 ); /* IE6-9 */
 }
 
@@ -165,15 +165,22 @@ h4 {
 
 
 #atividades {
-   margin-top: 5%; 
-   background-color: #4D4E53;
-   color: #F6F4EC;
-   text-align: center;
+    margin-top: 5%; 
+    background-color: #458588;
+    color: #F6F5F3;
+    text-align: center;
+    font-weight: bold;
+
 }
 
 .atividade {
     padding-top: 3%;
     padding-bottom: 3%;
+}
+
+.atividade hr {
+    border:1px solid #282828;
+    width: 50%;
 }
 
 .atividade-titulo {
@@ -188,14 +195,14 @@ h4 {
 .atividade-data {
     margin-top: 0%;
     margin-bottom: 1%;
-    text-align: left;
+    text-align: center;
     font-weight: bold;
 }
 
 .atividade-local {
     margin-top: 0%;
     margin-bottom: 1%;
-    text-align: left;
+    text-align: center;
     font-weight: bold;
 }
 
@@ -249,8 +256,16 @@ h4 {
     margin-top: 5%;
     padding-top: 3%;
     padding-bottom: 5%;
-    background-color: #D7D3C8;
+    background-color: #8ec07c;
+    color: #282828;
+    font-weight: bold;
 }
+
+th,td {
+    border-bottom: 1px solid #427b58;
+}
+
+
 .membros-titulo {
     font-weight: bold;
 }
