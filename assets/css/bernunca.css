@@ -200,10 +200,10 @@ h4 {
 }
 
 .atividade-inscricao {
-    font-size: 1.1em;
+    font-size: 1.3em;
     font-weight: bold;
     color: #689d6a;
-    float: right;
+    text-align: center;
 
 }
 
