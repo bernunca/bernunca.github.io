@@ -6,6 +6,8 @@ body {
     font-size: 14px;
     line-height: 20px;
 
+    font-weight: bold;
+
     color: #4D4E53;
 
     font-family: OpenSans;
@@ -166,7 +168,7 @@ h4 {
 
 #atividades {
     margin-top: 5%; 
-    background-color: #458588;
+    background-color: #cc241d;
     color: #F6F5F3;
     text-align: center;
     font-weight: bold;
@@ -209,13 +211,11 @@ h4 {
 .atividade-inscricao {
     font-size: 1.3em;
     font-weight: bold;
-    color: #689d6a;
     text-align: center;
 
 }
 
 .atividade-inscricao:hover {
-    color: #8ec07c;
 }
 
 #planejamento {
