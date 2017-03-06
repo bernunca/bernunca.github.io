@@ -250,10 +250,13 @@ h4 {
     background-color: #cc241d; 
 }
 
+#encontros{
+    background-color: rgba(124, 192, 191, 0.29);
+}
+
 
 
 #membros {
-    margin-top: 5%;
     padding-top: 3%;
     padding-bottom: 5%;
     background-color: #8ec07c;
@@ -286,3 +289,4 @@ th,td {
     font-weight: bold;
     color: #fb4934;
 }
+
